@@ -10,6 +10,9 @@ import { whatsapp } from './networks/whatsapp'
 import { telegram } from './networks/telegram'
 import { skype } from './networks/skype'
 import { email } from './networks/email'
+import { line } from './networks/line'
+import { bluesky } from './networks/bluesky'
+import { hatenabookmark } from './networks/hatenabookmark'
 
 export const networksIndex: NetworksIndex = {
   // Social Networks
@@ -18,6 +21,9 @@ export const networksIndex: NetworksIndex = {
   linkedin,
   pinterest,
   reddit,
+  line,
+  bluesky,
+  hatenabookmark,
   // Read it later
   pocket,
   // Instant Messaging
